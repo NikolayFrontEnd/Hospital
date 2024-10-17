@@ -1,0 +1,258 @@
+  .btn,
+.btn *,
+.btn :after,
+.btn :before,
+.btn:after,
+.btn:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn {
+    margin-right: 100px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+
+  -webkit-mask-image: -webkit-radial-gradient(#000, #ffffff);
+  padding: 0;
+}
+.btn:disabled {
+  cursor: default;
+}
+.btn:-moz-focusring {
+  outline: auto;
+}
+.btn svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn [hidden] {
+  display: none;
+}
+.btn {
+  background: none;
+  box-sizing: border-box;
+  color: #fcfcfc;
+  display: block;
+  font-weight: 900;
+  -webkit-mask-image: none;
+  padding: 1.5rem 4rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn span {
+  background: #168ad8;
+  border: 1px solid;
+  border-radius: 8px;
+  display: grid;
+  inset: 0;
+  place-items: center;
+  pointer-events: none;
+  position: absolute;
+}
+.btn:hover span {
+  -webkit-animation: tada 0.8s;
+  animation: tada 0.8s;
+}
+@-webkit-keyframes tada {
+  0% {
+    transform: scaleX(1);
+  }
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+  }
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes tada {
+  0% {
+    transform: scaleX(1);
+  }
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+  }
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.btn2,
+.btn2 *,
+.btn2 :after,
+.btn2 :before,
+.btn2:after,
+.btn2:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn2 {
+ 
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #ffffff);
+  padding: 0;
+}
+.btn2:disabled {
+  cursor: default;
+}
+.btn2:-moz-focusring {
+  outline: auto;
+}
+.btn2 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn2 [hidden] {
+  display: none;
+}
+.btn2 {
+  background: none;
+  box-sizing: border-box;
+  color: #fcfcfc;
+  display: block;
+  font-weight: 900;
+  -webkit-mask-image: none;
+  padding: 1.5rem 4rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn2 span {
+  background: #d81620;
+  border: 1px solid;
+  border-radius: 8px;
+  display: grid;
+  inset: 0;
+  place-items: center;
+  pointer-events: none;
+  position: absolute;
+}
+.btn2:hover span {
+  -webkit-animation: tada 0.8s;
+  animation: tada 0.8s;
+}
+@-webkit-keyframes tada {
+  0% {
+    transform: scaleX(1);
+  }
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+  }
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes tada {
+  0% {
+    transform: scaleX(1);
+  }
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+  }
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.gridS{
+    margin-top: 30px;
+    justify-content: center;
+display: grid;
+  grid-template-columns: 1; 
+  gap: 30px;
+  border: none;
+}
+.block{
+    flex-direction: column;
+    padding-left: 10px;
+    height: 120px;
+    width:600px;
+    padding: 30px;
+    display:flex;
+background-color: rgb(216, 240, 245);
+    border-radius: 25px; 
+    box-shadow: 0 6px 14px rgba(0, 0, 0.1, 0.4);
+}
+
+.btnGroup{
+    justify-content: center; 
+    display: flex;
+}
+.name {
+    font-weight:bold; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .time{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+  }  
+
+  /*  */

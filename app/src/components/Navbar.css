@@ -1,0 +1,198 @@
+/* .active{
+    background-color: #1d4ed8;
+} */
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f172a;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav .title {
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+   list-style: none; 
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+nav ul li a:not(.active):hover {
+    background-color:#172554 ;
+}
+
+nav .menu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+nav .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+
+
+@media (max-width: 480px) {
+    nav .menu {
+        display: flex;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin: 0.2rem 0.5rem;
+    }
+} */
+/* 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+:root
+{
+    --clr: #a12db5;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+}
+.container{
+position: relative;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+width: 600px;
+height: 400px;
+}
+.tabs{
+    position: relative;
+    width: 80px;
+    padding: 40px 0;
+}
+.tabs input{
+appearance: none;
+display: none;
+}
+.tabs .icon{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.tabs .icon label {
+    width: 80px;
+    height:80px;
+    text-align:center;
+    line-height: 90px;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    opacity: 0.25;
+    transition: 0.5s;
+    cursor: pointer;
+ z-index: 2;
+}
+
+.tabs input:nth-child(1):checked ~ .icon label:nth-child(1),
+.tabs input:nth-child(2):checked ~ .icon label:nth-child(2),
+.tabs input:nth-child(3):checked ~ .icon label:nth-child(3),
+.tabs input:nth-child(4):checked ~ .icon label:nth-child(4)
+{
+opacity: 1;
+}
+.indicator{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: var(--clr);
+    z-index: 1;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: 0.5s;
+}
+.indicator::before
+{
+    content: '';
+    position: absolute;
+    top: -20px;
+    right:0;
+    width:20px;
+    height: 20px;
+    background: transparent;
+    border-bottom-right-radius:20px;
+    box-shadow: 8px, 8px, 0, 8px, var(--clr);
+    }
+ .indicator::after{
+content: '';
+position: absolute;
+bottom: -20px;
+right:0;
+width:20px;
+height: 20px;
+background: transparent;
+border-top-right-radius:20px;
+box-shadow: 8px, -8px, 0, 8px, var(--clr);
+}  */
+
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 500000;
+  }

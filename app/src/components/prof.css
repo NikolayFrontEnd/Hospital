@@ -1,0 +1,239 @@
+*{
+ 
+}
+:root
+{
+--clr: #4481eb;
+}
+.bod
+{
+  margin:0;
+  padding:0;
+box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--clr);
+}
+.card2
+{
+  position: relative;
+  width:420px;
+  height:430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card2 .box2
+{
+  position: relative !important;
+  width: 110% !important;
+  height:200px !important;
+  background: rgb(255, 255, 255) !important;
+  border-radius: 15px !important;
+}
+
+.card2 .box2:nth-child(2)
+{
+  background: white !important;
+  height: 220px !important;
+  width:100% !important;
+}
+
+.card2 .circle2
+{
+position: absolute!important;
+width:180px!important;
+height:180px;
+background-color: green;
+border-radius: 50%!important;
+top:50%!important;
+left: -70px!important;
+transform: translateY(-50%)!important;
+border: 10px solid var(--clr)!important;
+}
+
+.card2 .box2:nth-child(1)::before{
+  content: ''!important;
+  position: absolute!important;
+  top:106px!important;
+  left:-1px!important;
+  width:20px!important;
+  height:20px!important;
+  background: transparent!important;
+z-index:10!important;
+border-bottom-left-radius: 20px!important;
+box-shadow: -6px 6px var(--clr)!important;
+}
+
+.card2 .box2:nth-child(1)::after{
+  content: ''!important;
+  position: absolute!important;
+  bottom: -1px!important;
+  left:105px!important;
+  width:20px!important;
+  height:20px!important;
+  background: transparent!important;
+z-index:10!important;
+border-bottom-left-radius: 20px!important;
+box-shadow: -6px 6px var(--clr)!important;
+}
+
+.card2 .box2:nth-child(2)::before
+{
+  content:''!important;
+  position: absolute!important;
+  bottom:106px!important;
+  width:20px!important;
+  height:20px!important;
+  border-top-left-radius: 20px!important;
+  z-index:10!important;
+  left:-1px!important;
+  box-shadow: -6px -6px var(--clr)!important;
+  background: transparent!important;
+}
+
+ .card2 .box2:nth-child(2)::after
+{
+  content:''!important;
+  position: absolute!important;
+  top:-1px!important;
+  width:20px!important;
+  height:20px!important;
+  border-top-left-radius: 20px!important;
+  z-index:10!important;
+  left:109px!important;
+  box-shadow: -6px -6px var(--clr)!important;
+  background: transparent!important;
+}
+ 
+.card2 .circle2 .imgBx,
+.card2 .box2 .imgBx
+{
+  position: absolute!important;
+  inset: 0!important;
+  overflow: hidden!important;
+  border-radius: 50%!important;
+}
+
+.card2 .box2 .imgBx
+{
+  border-radius: 15px!important;
+}
+
+.card2 .circle2 .imgBx img,
+.card2 .box2 .imgBx video
+{
+  position: absolute!important;
+  width: 100%!important;
+  height: 100%!important;
+  object-fit: cover!important;
+}
+
+.card2 .box2 .content2
+{
+  position: absolute!important;
+  inset: 0!important;
+  padding: 30px 10px 20px!important;
+  display: flex!important;
+  flex-direction: column!important;
+  gap:20px!important;
+  align-items: center!important;
+}
+
+
+.card2 .box2 .content2 h2
+{
+  width: 100%;
+  padding-left: 120px;
+  text-transform: uppercase;
+  font-size: 1.17em;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  line-height: 1.1em;
+  color:#333;
+  
+}
+
+
+.card2 .box2 .content2 h2 span
+{
+  font-size: 0.77em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color:#e91e63;
+  text-transform: initial;
+
+}
+.card2 .box2 .content2 ul
+{
+  position: relative;
+  top:15px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  width:100%;
+  padding:0 10px;
+  justify-content: space-evenly;
+}
+.card2 .box2 .content2 ul
+{
+  position: relative;
+  top:15px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  width:100%;
+  padding:0 10px;
+  justify-content: space-evenly;
+}
+.card2 .box2 .content2 ul li
+{
+  list-style:none;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  padding: 0 10px;
+  font-size:0.85em;
+  font-weight: 500;
+  color: #999;
+}
+
+
+.card2 .box2 .content2 ul li:not(:last-child)
+{
+  border-right: 1px solid #ccc;
+}
+
+.card2 .box2 .content2 ul li span
+{
+  font-size: 1.65em;
+  color: #333;
+
+}
+
+.card2 .box2 .content2 button
+{
+
+  position: relative;
+  top:25px;
+  padding: 8px 30px;
+  border: none;
+  outline: none;
+  background: #03a9f4;
+  border-radius: 30px;
+  color:#fff;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+ cursor:pointer;
+ border:5px solid rgb(21, 20, 93);
+box-shadow: 0 0 0 10px #fff;
+transition: 0.5s;
+}
+.card2 .box2 .content2 button:hover
+{
+  letter-spacing:0.5em;
+  background: #ff3d7f;
+}
